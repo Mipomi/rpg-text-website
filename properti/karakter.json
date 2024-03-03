@@ -1,0 +1,63 @@
+[
+    {
+        "karakter":{
+            "nama":"",
+            "level":0,
+            "job":"",
+            "exp":100,
+            "hp":100,
+            "mana":5,
+            "status":{
+                "str": 5,
+                "agi": 5,
+                "def": 5,
+                "int": 5
+            }
+        }
+    },
+    {
+        "class":[{
+            "noJob": 1,
+            "namaJob":"Knight",
+            "stat":{
+                "str": 10,
+                "agi": 5,
+                "def": 15,
+                "int": 5
+            }
+        },
+        {
+            "noJob": 2,
+            "namaJob":"Mage",
+            "stat":{
+                "str": 5,
+                "agi": 15,
+                "def": 5,
+                "int": 20
+            }
+            
+        },
+        {
+            "noJob": 3,
+            "namaJob":"Assasin",
+            "stat":{
+                "str": 10,
+                "agi": 15,
+                "def": 5,
+                "int": 5
+            }
+        },
+        {
+            "noJob": 4,
+            "namaJob":"noper",
+            "stat":{
+                "str": 5,
+                "agi": 5,
+                "def": 5,
+                "int": 5
+            }
+        }
+    ]
+}
+
+]

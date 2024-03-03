@@ -1,0 +1,58 @@
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e7ede7f3;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: none; 
+    animation: fadeIn 0.5s ease-in-out;
+    max-width: 80%;
+    width: 300px; 
+}
+
+.custom-alert button {
+    background-color: #ef2727;
+    color: #f9f9f9;
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-alert h4{
+    margin: -10px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bcc006;
+    
+}
+.custom-alert p{
+    margin: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.custom-alert a{
+    background-color: #3939ff;
+    font-family: arial, sans-serif;
+    margin: 10px;
+    padding: 7px 16px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
